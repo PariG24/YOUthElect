@@ -10,12 +10,20 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
             Text("YOUthElect")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+            HStack {
+                Text("Your Vote,")
+                Text("Your Voice;")}
+            Text("Igniting Change in Our Generation")
+          
+            
+               
+                
+            
         }
-        .padding()
+        .padding(.bottom, 700.0)
     }
 }
 
