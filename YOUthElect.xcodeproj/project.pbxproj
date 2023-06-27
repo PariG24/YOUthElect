@@ -14,6 +14,11 @@
 		D735078D2A4B8890009680DD /* YOUthElectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735078C2A4B8890009680DD /* YOUthElectTests.swift */; };
 		D73507972A4B8890009680DD /* YOUthElectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73507962A4B8890009680DD /* YOUthElectUITests.swift */; };
 		D73507992A4B8890009680DD /* YOUthElectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73507982A4B8890009680DD /* YOUthElectUITestsLaunchTests.swift */; };
+		D73507A62A4B8D0D009680DD /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73507A52A4B8D0D009680DD /* TabBarView.swift */; };
+		D73507A82A4B8D1E009680DD /* VotingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73507A72A4B8D1E009680DD /* VotingView.swift */; };
+		D73507AA2A4B8D2D009680DD /* PetitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73507A92A4B8D2D009680DD /* PetitionView.swift */; };
+		D73507AC2A4B8D49009680DD /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73507AB2A4B8D49009680DD /* JournalView.swift */; };
+		D73507AE2A4B8EE1009680DD /* CandidatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73507AD2A4B8EE1009680DD /* CandidatesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		D73507922A4B8890009680DD /* YOUthElectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YOUthElectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73507962A4B8890009680DD /* YOUthElectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOUthElectUITests.swift; sourceTree = "<group>"; };
 		D73507982A4B8890009680DD /* YOUthElectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOUthElectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D73507A52A4B8D0D009680DD /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		D73507A72A4B8D1E009680DD /* VotingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingView.swift; sourceTree = "<group>"; };
+		D73507A92A4B8D2D009680DD /* PetitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetitionView.swift; sourceTree = "<group>"; };
+		D73507AB2A4B8D49009680DD /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		D73507AD2A4B8EE1009680DD /* CandidatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidatesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,11 @@
 			children = (
 				D735077B2A4B888B009680DD /* YOUthElectApp.swift */,
 				D735077D2A4B888B009680DD /* ContentView.swift */,
+				D73507A52A4B8D0D009680DD /* TabBarView.swift */,
+				D73507AD2A4B8EE1009680DD /* CandidatesView.swift */,
+				D73507A72A4B8D1E009680DD /* VotingView.swift */,
+				D73507A92A4B8D2D009680DD /* PetitionView.swift */,
+				D73507AB2A4B8D49009680DD /* JournalView.swift */,
 				D735077F2A4B888F009680DD /* Assets.xcassets */,
 				D73507812A4B888F009680DD /* Preview Content */,
 			);
@@ -257,7 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D73507AC2A4B8D49009680DD /* JournalView.swift in Sources */,
+				D73507AA2A4B8D2D009680DD /* PetitionView.swift in Sources */,
 				D735077E2A4B888B009680DD /* ContentView.swift in Sources */,
+				D73507AE2A4B8EE1009680DD /* CandidatesView.swift in Sources */,
+				D73507A82A4B8D1E009680DD /* VotingView.swift in Sources */,
+				D73507A62A4B8D0D009680DD /* TabBarView.swift in Sources */,
 				D735077C2A4B888B009680DD /* YOUthElectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
