@@ -11,6 +11,10 @@ struct TabBarView: View {
     var body: some View {
         TabView {
            
+            ContentView()
+                .tabItem{
+                    Label("Home", systemImage: "house")
+                }
             CandidatesView()
                 .tabItem{
                     Label("Candidates", systemImage: "person.3.fill")
@@ -19,10 +23,7 @@ struct TabBarView: View {
                 .tabItem{
                     Label("Voting", systemImage: "checkmark.seal.fill")
                 }
-            ContentView()
-                .tabItem{
-                    Label("Home", systemImage: "house")
-                }
+            
             PetitionView()
                 .tabItem{
                     Label("Under 18", systemImage: "hand.raised.fill")

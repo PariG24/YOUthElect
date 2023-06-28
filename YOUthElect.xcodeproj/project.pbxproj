@@ -19,6 +19,10 @@
 		D73507AA2A4B8D2D009680DD /* PetitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73507A92A4B8D2D009680DD /* PetitionView.swift */; };
 		D73507AC2A4B8D49009680DD /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73507AB2A4B8D49009680DD /* JournalView.swift */; };
 		D73507AE2A4B8EE1009680DD /* CandidatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73507AD2A4B8EE1009680DD /* CandidatesView.swift */; };
+		D735080D2A4CCFC5009680DD /* VoteOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735080C2A4CCFC5009680DD /* VoteOneView.swift */; };
+		D735080F2A4CD28B009680DD /* VoteTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735080E2A4CD28B009680DD /* VoteTwoView.swift */; };
+		D73508112A4CD32F009680DD /* VoteThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73508102A4CD32F009680DD /* VoteThreeView.swift */; };
+		D73508132A4CD383009680DD /* VoteFourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73508122A4CD383009680DD /* VoteFourView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,10 @@
 		D73507A92A4B8D2D009680DD /* PetitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetitionView.swift; sourceTree = "<group>"; };
 		D73507AB2A4B8D49009680DD /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
 		D73507AD2A4B8EE1009680DD /* CandidatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidatesView.swift; sourceTree = "<group>"; };
+		D735080C2A4CCFC5009680DD /* VoteOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteOneView.swift; sourceTree = "<group>"; };
+		D735080E2A4CD28B009680DD /* VoteTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteTwoView.swift; sourceTree = "<group>"; };
+		D73508102A4CD32F009680DD /* VoteThreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteThreeView.swift; sourceTree = "<group>"; };
+		D73508122A4CD383009680DD /* VoteFourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteFourView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,10 @@
 				D73507A52A4B8D0D009680DD /* TabBarView.swift */,
 				D73507AD2A4B8EE1009680DD /* CandidatesView.swift */,
 				D73507A72A4B8D1E009680DD /* VotingView.swift */,
+				D73508122A4CD383009680DD /* VoteFourView.swift */,
+				D73508102A4CD32F009680DD /* VoteThreeView.swift */,
+				D735080C2A4CCFC5009680DD /* VoteOneView.swift */,
+				D735080E2A4CD28B009680DD /* VoteTwoView.swift */,
 				D73507A92A4B8D2D009680DD /* PetitionView.swift */,
 				D73507AB2A4B8D49009680DD /* JournalView.swift */,
 				D735077F2A4B888F009680DD /* Assets.xcassets */,
@@ -272,13 +284,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D73508132A4CD383009680DD /* VoteFourView.swift in Sources */,
 				D73507AC2A4B8D49009680DD /* JournalView.swift in Sources */,
 				D73507AA2A4B8D2D009680DD /* PetitionView.swift in Sources */,
 				D735077E2A4B888B009680DD /* ContentView.swift in Sources */,
 				D73507AE2A4B8EE1009680DD /* CandidatesView.swift in Sources */,
+				D735080F2A4CD28B009680DD /* VoteTwoView.swift in Sources */,
+				D73508112A4CD32F009680DD /* VoteThreeView.swift in Sources */,
 				D73507A82A4B8D1E009680DD /* VotingView.swift in Sources */,
 				D73507A62A4B8D0D009680DD /* TabBarView.swift in Sources */,
 				D735077C2A4B888B009680DD /* YOUthElectApp.swift in Sources */,
+				D735080D2A4CCFC5009680DD /* VoteOneView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
