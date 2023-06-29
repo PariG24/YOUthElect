@@ -91,6 +91,7 @@ struct VotingView: View {
                     
                 }
                 .searchable(text: $searchText)
+    
                
         }
     }

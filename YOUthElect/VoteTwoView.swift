@@ -15,8 +15,11 @@ struct VoteTwoView: View {
                 
                 VStack(spacing: 20.0) {
                     Text("Empowering Oklahoma's Future through Education")
+                        .font(.title2)
+                        .fontWeight(.bold)
                         .foregroundColor(.black)
                         .multilineTextAlignment(.center)
+
                     
                     HStack(spacing: 5.0){
                         Text("Date and Time:")

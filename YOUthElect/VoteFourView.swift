@@ -15,6 +15,8 @@ struct VoteFourView: View {
                 
                 VStack(spacing: 20.0) {
                     Text("Transforming Education: Empowering Texas Teens")
+                        .font(.title2)
+                        .fontWeight(.bold)
                         .foregroundColor(.black)
                         .multilineTextAlignment(.center)
                     
