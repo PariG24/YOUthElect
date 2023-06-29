@@ -9,7 +9,37 @@ import SwiftUI
 
 struct PetitionOneView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        ScrollView{
+            
+                
+
+                ZStack {
+                    Color(.systemPink)
+                        .ignoresSafeArea()
+                    VStack{
+                    VStack(alignment: .leading, spacing: 20) {
+                    Image("crossthing")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                        HStack {
+                            Text("Petition for Safer Crosswalks in Plymouth City")
+                                .font(.title2)
+                                .fontWeight(.bold)
+                          
+                        }
+                       
+                        Text("About:  Link:")
+                    }
+                    .padding()
+                    .background(Rectangle().foregroundColor(.white))
+                    .cornerRadius(15)
+                    .shadow(radius: 15)
+                    .padding()
+
+                }
+            }
+        }
     }
 }
 

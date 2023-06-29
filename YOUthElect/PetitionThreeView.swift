@@ -9,7 +9,33 @@ import SwiftUI
 
 struct PetitionThreeView: View {
     var body: some View {
-        Text("Petition for Stricter Regulations on Plastic Packaging")
+        ScrollView{
+        ZStack {
+            Color(.systemPink)
+                .ignoresSafeArea()
+            VStack{
+                VStack(alignment: .leading, spacing: 20) {
+                    Image("plastic")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                    HStack {
+                        Text("Petition for Stricter Regulations on Plastic Packaging")
+                            .font(.title2)
+                            .fontWeight(.bold)
+                        
+                    }
+                    
+                    Text("About:  Link:")
+                }
+                .padding()
+                .background(Rectangle().foregroundColor(.white))
+                .cornerRadius(15)
+                .shadow(radius: 15)
+                .padding()
+                
+            }
+        }
+        }
     }
 }
 

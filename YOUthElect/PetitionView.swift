@@ -19,7 +19,8 @@ struct PetitionView: View {
                 .foregroundColor(Color(red: 0.282, green: 0.524, blue: 0.948))
                 .padding()
          
-        
+            Text("Here you can find petitions that effect your community!")
+                .multilineTextAlignment(.center)
 
             
             NavigationStack {
@@ -79,7 +80,7 @@ struct PetitionView: View {
                
                 
                 NavigationLink(destination: PetitionFourView()) {
-                    Text("Petition for Stricter Regulations on Plastic Packaging")
+                    Text("Petition to Increase Funding for Mental Health Services in Schools")
                     
                 }
                 .padding()

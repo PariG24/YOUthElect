@@ -10,10 +10,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
             VStack {
+               
                 Text("YOUthElect")
                     .font(.largeTitle)
                     .fontWeight(.bold)
-                    .padding(.top, 250.0)
+                    .padding(.top, 255.0)
                 HStack {
                     Text("Your Vote,")
                         .fontWeight(.bold)
