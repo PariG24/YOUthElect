@@ -14,52 +14,91 @@ struct PetitionView: View {
         
         VStack{
             
-            Text("Your Vote")
+            Text("Petitions")
                 .font(.largeTitle)
-                .foregroundColor(Color(red: 0.996078431372549, green: 0.37254901960784315, blue: 0.3333333333333333))
-            
-            
-            
+                .foregroundColor(Color(red: 0.282, green: 0.524, blue: 0.948))
+                .padding()
+         
+        
+
             
             NavigationStack {
                 
-                
+            
                 
                 NavigationLink(destination: PetitionOneView()) {
-                    Text("Petition One")
+                    Text("Petition for Safer Crosswalks in Plymouth City")
                 }
                
-                .font(.title)
-                .buttonStyle(.borderedProminent)
-                .border(.black)
-                .tint(.blue)
-                .cornerRadius(10)
+                .padding()
+                                    .foregroundColor(.black)
+                                            .background(
+                                                RoundedRectangle(
+
+                                                    cornerRadius: 20,
+                                                    style: .continuous
+                                                )
+                                                .stroke(Color(red: 0.282, green: 0.524, blue: 0.948), lineWidth: 2)
+
+                                            )
                 
                 
                 
                 
                 NavigationLink(destination: PetitionTwoView()) {
-                    Text("Petition Two")
+                    Text("Petition to stop Development in Pink Park")
                     
                 }
-                .font(.title)
-                .buttonStyle(.borderedProminent)
-                .border(.black)
-                .tint(.blue)
-                .cornerRadius(10)
+                .padding()
+                                    .foregroundColor(.black)
+                                            .background(
+                                                RoundedRectangle(
+
+                                                    cornerRadius: 20,
+                                                    style: .continuous
+                                                )
+                                                .stroke(Color(red: 0.282, green: 0.524, blue: 0.948), lineWidth: 2)
+
+                                            )
+                
                 NavigationLink(destination: PetitionThreeView()) {
-                    Text("Petition Three")
+                    Text("Petition for Stricter Regulations on Plastic Packaging")
                     
                 }
-                .font(.title)
-                .buttonStyle(.borderedProminent)
-                .border(.black)
-                .tint(.blue)
-                .cornerRadius(10)
+                .padding()
+                                    .foregroundColor(.black)
+                                            .background(
+                                                RoundedRectangle(
+
+                                                    cornerRadius: 20,
+                                                    style: .continuous
+                                                )
+                                                .stroke(Color(red: 0.282, green: 0.524, blue: 0.948), lineWidth: 2)
+
+                                            )
+               
+                
+                NavigationLink(destination: PetitionFourView()) {
+                    Text("Petition for Stricter Regulations on Plastic Packaging")
+                    
+                }
+                .padding()
+                                    .foregroundColor(.black)
+                                            .background(
+                                                RoundedRectangle(
+
+                                                    cornerRadius: 20,
+                                                    style: .continuous
+                                                )
+                                                .stroke(Color(red: 0.282, green: 0.524, blue: 0.948), lineWidth: 2)
+
+                                            )
+            
             }
             
+      
             .searchable(text: $searchText)
-            
+        
         }
     }
 }
