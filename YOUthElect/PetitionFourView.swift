@@ -11,7 +11,7 @@ struct PetitionFourView: View {
     var body: some View {
         ScrollView{
             ZStack {
-                Color(.systemPink)
+                (Color(red: 0.282, green: 0.524, blue: 0.948)
                     .ignoresSafeArea()
                 VStack{
                     VStack(alignment: .leading, spacing: 20) {

@@ -15,8 +15,7 @@ struct PetitionOneView: View {
                 
 
                 ZStack {
-                    Color(.systemPink)
-                        .ignoresSafeArea()
+                   
                     VStack{
                     VStack(alignment: .leading, spacing: 20) {
                     Image("crossthing")
@@ -32,10 +31,12 @@ struct PetitionOneView: View {
                         Text("About:  Link:")
                     }
                     .padding()
-                    .background(Rectangle().foregroundColor(.white))
+                    .background(Rectangle().foregroundColor(.white)
+                        .ignoresSafeArea())
                     .cornerRadius(15)
                     .shadow(radius: 15)
                     .padding()
+               
 
                 }
             }
