@@ -16,8 +16,8 @@ struct VoteOneView: View {
             ScrollView{
                 
                 VStack(spacing: 20.0) {
-                    Text("Youth Empowerment Initiative: Shaping the Future of Oklahoma")
-                        .foregroundColor(.white)
+                    Text("Vote for Quality Education: Empowering Oklahoma's Youth")
+                        .foregroundColor(.black)
                         .multilineTextAlignment(.center)
                     
                     HStack(spacing: 5.0){
@@ -33,18 +33,18 @@ struct VoteOneView: View {
                             .font(.caption2)
                     }
                     
-                    Image("YouthEm")
+                    Image("EducationQuality")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                     
-                    Text("The Youth Empowerment Initiative in Oklahoma aims to mobilize and empower teenagers to vote and make a difference in their state. This movement focuses on engaging youth through community events, education, and workshops to address key issues such as education reform, mental health, sustainability, social justice, and community development. By amplifying youth voices, the initiative aims to create a more inclusive and progressive Oklahoma where young people actively participate in decision-making processes.")
+                    Text("Oklahoma's teenagers are rallying behind an upcoming movement focused on education. With the aim of driving change and securing a brighter future for all, this movement encourages young voters to actively participate. The movement advocates for improved educational standards, increased investment in schools, better resources and technology, and equal opportunities for every student. By voting and supporting this movement, Oklahoma's teens can play a crucial role in shaping the educational landscape, empowering themselves and their peers along the way.")
                         .font(.caption)
                     
                     
                     
                 }
                 .padding()
-                .background(Rectangle()                         .foregroundColor(Color(red: 0.282, green: 0.524, blue: 0.948))
+                .background(Rectangle()                         .foregroundColor(.white)
  )
                 .cornerRadius(15)
                 .shadow(radius: 15)

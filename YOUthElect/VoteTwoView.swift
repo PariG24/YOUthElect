@@ -15,7 +15,7 @@ struct VoteTwoView: View {
                 
                 VStack(spacing: 20.0) {
                     Text("Empowering Oklahoma's Future through Education")
-                        .foregroundColor(.white)
+                        .foregroundColor(.black)
                         .multilineTextAlignment(.center)
                     
                     HStack(spacing: 5.0){
@@ -42,7 +42,7 @@ struct VoteTwoView: View {
                     
                 }
                 .padding()
-                .background(Rectangle()                         .foregroundColor(Color(red: 0.282, green: 0.524, blue: 0.948))
+                .background(Rectangle()                         .foregroundColor(.white)
  )
                 .cornerRadius(15)
                 .shadow(radius: 15)

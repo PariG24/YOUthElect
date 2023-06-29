@@ -14,10 +14,14 @@ struct VotingView: View {
             Text("Your Vote")
                 .font(.largeTitle)
                 .foregroundColor(Color(red: 0.996078431372549, green: 0.37254901960784315, blue: 0.3333333333333333))
+            
+            Text("Down below are upcoming movements you can vote on!")
+                .multilineTextAlignment(.center)
+            
                 NavigationStack{
                     
                     NavigationLink(destination: VoteOneView()) {
-                        Text("Youth Empowerment Initiative: Shaping the Future of Oklahoma")
+                        Text("Vote for Quality Education: Empowering Oklahoma's Youth")
                         
                     }
                     .padding()
@@ -53,7 +57,7 @@ struct VotingView: View {
                    
                     
                     NavigationLink(destination: VoteThreeView()) {
-                        Text("Name of Third Movement")
+                        Text("Teens Vote for Education: Building a Better Future in Oklahoma")
                     }
                     
                     .padding()
@@ -70,7 +74,7 @@ struct VotingView: View {
                   
                     
                     NavigationLink(destination: VoteFourView()) {
-                        Text("Name of Fourth Movement")
+                        Text("Transforming Education: Empowering Texas Teens")
                     }
                     .padding()
                     .foregroundColor(.black)
