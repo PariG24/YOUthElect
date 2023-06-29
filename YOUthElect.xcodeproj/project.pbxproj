@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B341E652A4DFB2B0076BB5D /* PetitionFourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B341E642A4DFB2B0076BB5D /* PetitionFourView.swift */; };
 		3BA298E02A4CCE0C00ADC09F /* PetitionOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA298DF2A4CCE0C00ADC09F /* PetitionOneView.swift */; };
 		3BA298E42A4CCF8B00ADC09F /* PetitionTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA298E32A4CCF8B00ADC09F /* PetitionTwoView.swift */; };
 		3BA298E62A4CD09100ADC09F /* PetitionThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA298E52A4CD09100ADC09F /* PetitionThreeView.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B341E642A4DFB2B0076BB5D /* PetitionFourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetitionFourView.swift; sourceTree = "<group>"; };
 		3BA298DF2A4CCE0C00ADC09F /* PetitionOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetitionOneView.swift; sourceTree = "<group>"; };
 		3BA298E32A4CCF8B00ADC09F /* PetitionTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetitionTwoView.swift; sourceTree = "<group>"; };
 		3BA298E52A4CD09100ADC09F /* PetitionThreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetitionThreeView.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				D735080C2A4CCFC5009680DD /* VoteOneView.swift */,
 				D735080E2A4CD28B009680DD /* VoteTwoView.swift */,
 				D73507A92A4B8D2D009680DD /* PetitionView.swift */,
+				3B341E642A4DFB2B0076BB5D /* PetitionFourView.swift */,
 				3BA298E52A4CD09100ADC09F /* PetitionThreeView.swift */,
 				3BA298E32A4CCF8B00ADC09F /* PetitionTwoView.swift */,
 				3BA298DF2A4CCE0C00ADC09F /* PetitionOneView.swift */,
@@ -306,6 +309,7 @@
 				D73507A82A4B8D1E009680DD /* VotingView.swift in Sources */,
 				D73507A62A4B8D0D009680DD /* TabBarView.swift in Sources */,
 				D735077C2A4B888B009680DD /* YOUthElectApp.swift in Sources */,
+				3B341E652A4DFB2B0076BB5D /* PetitionFourView.swift in Sources */,
 				D735080D2A4CCFC5009680DD /* VoteOneView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
