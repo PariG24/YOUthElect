@@ -36,7 +36,7 @@ struct VotingView: View {
                     
                     
                     NavigationLink(destination: VoteTwoView()) {
-                        Text("Name Of Second Movement")
+                        Text("Empowering Oklahoma's Future through Education")
                         
                             }
                     .padding()

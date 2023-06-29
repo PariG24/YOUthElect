@@ -9,8 +9,9 @@ import SwiftUI
 
 struct VoteOneView: View {
     var body: some View {
+     
+      
         ZStack{
-            
             
             ScrollView{
                 
