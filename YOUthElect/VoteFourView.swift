@@ -44,8 +44,9 @@ struct VoteFourView: View {
                     
                 }
                 .padding()
-                .background(Rectangle()                         .foregroundColor(.white)
- )
+                .background(Rectangle()
+                    .foregroundColor(.white)
+                    )
                 .cornerRadius(15)
                 .shadow(radius: 15)
                 .padding()
