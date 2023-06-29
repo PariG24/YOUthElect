@@ -9,7 +9,11 @@ import SwiftUI
 
 struct VoteOneView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Youth Empowerment Initiative: Shaping the Future of Oklahoma")
+            
+            
+        }
     }
 }
 
