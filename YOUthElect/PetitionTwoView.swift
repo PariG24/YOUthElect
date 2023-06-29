@@ -9,7 +9,36 @@ import SwiftUI
 
 struct PetitionTwoView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView{
+            
+                
+
+            ZStack {
+                Color(.systemPink)
+                    .ignoresSafeArea()
+                VStack{
+                    VStack(alignment: .leading, spacing: 20) {
+                        Image("park")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                        HStack {
+                            Text("Petition to stop Development in Pink Park")
+                                .font(.title2)
+                                .fontWeight(.bold)
+                            
+                        }
+                        
+                        Text("About:  Link:")
+                    }
+                    .padding()
+                    .background(Rectangle().foregroundColor(.white))
+                    .cornerRadius(15)
+                    .shadow(radius: 15)
+                    .padding()
+                    
+                }
+            }
+            }
     }
 }
 

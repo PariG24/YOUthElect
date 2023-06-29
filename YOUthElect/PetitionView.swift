@@ -80,7 +80,7 @@ struct PetitionView: View {
                
                 
                 NavigationLink(destination: PetitionFourView()) {
-                    Text("Petition for Stricter Regulations on Plastic Packaging")
+                    Text("Petition to Increase Funding for Mental Health Services in Schools")
                     
                 }
                 .padding()
