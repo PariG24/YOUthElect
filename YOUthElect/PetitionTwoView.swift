@@ -14,21 +14,20 @@ struct PetitionTwoView: View {
                 
 
             ZStack {
-                Color(.systemPink)
-                    .ignoresSafeArea()
                 VStack{
                     VStack(alignment: .leading, spacing: 20) {
-                        Image("park")
+                        Image("farms")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                         HStack {
-                            Text("Petition to stop Development in Pink Park")
+                            Text("Petition to Ban Harmful Pesticides and Promote Organic Farming Practices")
                                 .font(.title2)
                                 .fontWeight(.bold)
                             
                         }
                         
-                        Text("About:  Link:")
+                        Text("About: We, the supporters of healthy ecosystems and human well-being, call for the banning of harmful pesticides in Midwest agriculture. By promoting organic farming practices, reducing pesticide usage, and supporting farmers' transition to sustainable and regenerative agriculture, we can protect biodiversity, safeguard public health, and foster a more environmentally-friendly and sustainable food system. ")
+                        Text("Link: https://www.change.org/p/stop-the-use-of-chemical-pesticides-get-back-to-nature?source_location=topic_page")
                     }
                     .padding()
                     .background(Rectangle().foregroundColor(.white))

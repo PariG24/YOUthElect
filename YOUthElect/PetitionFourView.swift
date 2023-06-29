@@ -11,21 +11,21 @@ struct PetitionFourView: View {
     var body: some View {
         ScrollView{
             ZStack {
-                (Color(red: 0.282, green: 0.524, blue: 0.948)
-                    .ignoresSafeArea()
+                
                 VStack{
                     VStack(alignment: .leading, spacing: 20) {
-                        Image("mental")
+                        Image("forest")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                         HStack {
-                            Text("Petition to Increase Funding for Mental Health Services in Schools")
+                            Text("Petition to Preserve Midwest Forests and Combat Deforestation")
                                 .font(.title2)
                                 .fontWeight(.bold)
                             
                         }
                         
-                        Text("About:  Link:")
+                        Text("About: The advocates for forest conservation urge regional governments and land management agencies to prioritize the preservation and sustainable management of Midwest forests. By implementing measures to combat deforestation, promoting responsible logging practices, and supporting reforestation initiatives, we can maintain the ecological integrity of these vital ecosystems and mitigate climate change by sequestering carbon dioxide.")
+                        Text("Link: https://www.change.org/p/united-nations-environment-program-stop-deforestation-plant-more-trees")
                     }
                     .padding()
                     .background(Rectangle().foregroundColor(.white))
