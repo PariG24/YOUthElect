@@ -31,6 +31,7 @@
 		D73538FF2A4E8C5100BE1E36 /* NewJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73538FE2A4E8C5100BE1E36 /* NewJournalView.swift */; };
 		D73539032A4E901600BE1E36 /* ImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73539022A4E901600BE1E36 /* ImageDataModel.swift */; };
 		D73539052A4E920000BE1E36 /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73539042A4E920000BE1E36 /* NoteDetailView.swift */; };
+		D751F9D12A4F4DC4004F3292 /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D751F9D02A4F4DC4004F3292 /* ExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		D73538FE2A4E8C5100BE1E36 /* NewJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewJournalView.swift; sourceTree = "<group>"; };
 		D73539022A4E901600BE1E36 /* ImageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataModel.swift; sourceTree = "<group>"; };
 		D73539042A4E920000BE1E36 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
+		D751F9D02A4F4DC4004F3292 /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +208,7 @@
 				D73507AB2A4B8D49009680DD /* JournalView.swift */,
 				D73538FE2A4E8C5100BE1E36 /* NewJournalView.swift */,
 				D73539042A4E920000BE1E36 /* NoteDetailView.swift */,
+				D751F9D02A4F4DC4004F3292 /* ExampleView.swift */,
 			);
 			path = JournalViews;
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 				D73538FD2A4E8B4600BE1E36 /* ImagePicker.swift in Sources */,
 				3B341E652A4DFB2B0076BB5D /* PetitionFourView.swift in Sources */,
 				D735080D2A4CCFC5009680DD /* VoteOneView.swift in Sources */,
+				D751F9D12A4F4DC4004F3292 /* ExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

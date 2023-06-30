@@ -38,7 +38,7 @@ struct ContentView: View {
               Text("LGBTQ+ Rights")
               Text("Racial Equality")
               Text("Women's Rights")
-                Text("Environmental")
+              Text("Environmental")
                 
             }
             Text("Which region are you currently in? ")

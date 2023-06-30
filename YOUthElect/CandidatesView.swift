@@ -19,7 +19,7 @@ struct CandidatesView: View {
                 .foregroundColor(Color(red: 0.282, green: 0.524, blue: 0.948))
                 .padding()
             
-            Text("Here are the candidates of the upcoming presidential election.")
+            Text("Here are some of the candidates of the upcoming presidential election.")
                 .multilineTextAlignment(.center)
             ScrollView{
                 
@@ -96,7 +96,7 @@ struct CandidatesView: View {
                                 
                             }
                             
-                            Text("Marianne Williamson is a renowned spiritual teacher, author, and political activist. Known for her unique blend of spirituality and progressive politics, she has captured the attention of many with her thought-provoking ideas. Williamson gained national prominence during her run for the Democratic Party's presidential nomination in 2020, where she advocated for a holistic approach to addressing societal issues. Through her books and public speaking engagements, she continues to inspire and challenge individuals to cultivate personal growth, compassion, and social justice in their lives and communities. ")
+                            Text("Marianne Williamson is a renowned spiritual teacher, author, and political activist. Known for her unique blend of spirituality and progressive politics, she has captured the attention of many with her thought-provoking ideas. Williamson gained national prominence during her run for the Democratic Party's presidential nomination in 2020, where she advocated for a holistic approach to addressing societal issues. Through her books and public speaking engagements, she continues to inspire and challenge individuals to cultivate personal growth, compassion, and social justice in their lives and communities.")
                         
                         }
                         .padding()

@@ -13,43 +13,46 @@ struct NoteDetailView: View {
     @Environment(\.presentationMode) var presentationMode
     var body: some View {
         Form {
-            Section {
-                HStack {
-                    Spacer()
-                    Image(uiImage: UIImage(data: note.image)!)
-                        .resizable()
-                        .frame(width: 300, height: 300, alignment: .center)
-                    Spacer()
-                }
-                TextField("Title", text: $note.title)
-                    .textSelection(.enabled)
-                    .onTapGesture {
-                        note.title = ""
-                    }
-                ZStack {
-                    TextEditor(text: $note.description)
-                        .textSelection(.enabled)
-                        .frame(height: 200)
-                    VStack {
+                Section {
+                    HStack {
                         Spacer()
-                        HStack{
+                        Image(uiImage: UIImage(data: note.image)!)
+                            .resizable()
+                            .frame(width: 300, height: 300, alignment: .center)
+                        Spacer()
+                    }
+                    TextField("Title", text: $note.title)
+                        .textSelection(.enabled)
+                        .onTapGesture {
+                            note.title = ""
+                        }
+                    ZStack {
+                        TextEditor(text: $note.description)
+                            .textSelection(.enabled)
+                            .frame(height: 200)
+                        VStack {
                             Spacer()
-                            Text("\(note.description.count)/200")
-                                .foregroundColor(.gray)
-                                .padding()
+                            HStack{
+                                Spacer()
+                                Text("\(note.description.count)/200")
+                                    .foregroundColor(.gray)
+                                    .padding()
+                            }
                         }
                     }
-                }
-                HStack {
-                    Spacer()
-                    Button("Confirm Changes") {
-                        imageData.editNote(id: note.id, title: note.title, description: note.description)
-                        presentationMode.wrappedValue.dismiss()
+                    HStack {
+                        NavigationLink(destination: ExampleView()) {
+                            Text("Confirm Changes")
+                         }
+                        /* Spacer()
+                        /* Button("Confirm Changes") {
+                           imageData.editNote(id: note.id, title: note.title, description: note.description)
+                            presentationMode.wrappedValue.dismiss()
+                        }*/
+                        Spacer()*/
                     }
-                    Spacer()
                 }
-                }
-            }
+        }
         }
     }
 
