@@ -22,7 +22,7 @@ struct JournalView: View {
                         NewJournalView()
                     }
                 }
-                .navigationTitle("Voice Your Thoughts Here")
+                .navigationTitle("Voice Your Thoughts")
                 
                 .sheet(isPresented: $showImagePicker) {
                     ImagePicker(sourceType: .photoLibrary) {
