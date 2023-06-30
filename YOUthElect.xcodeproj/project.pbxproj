@@ -27,6 +27,10 @@
 		D735080F2A4CD28B009680DD /* VoteTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735080E2A4CD28B009680DD /* VoteTwoView.swift */; };
 		D73508112A4CD32F009680DD /* VoteThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73508102A4CD32F009680DD /* VoteThreeView.swift */; };
 		D73508132A4CD383009680DD /* VoteFourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73508122A4CD383009680DD /* VoteFourView.swift */; };
+		D73538FD2A4E8B4600BE1E36 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73538FC2A4E8B4600BE1E36 /* ImagePicker.swift */; };
+		D73538FF2A4E8C5100BE1E36 /* NewJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73538FE2A4E8C5100BE1E36 /* NewJournalView.swift */; };
+		D73539032A4E901600BE1E36 /* ImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73539022A4E901600BE1E36 /* ImageDataModel.swift */; };
+		D73539052A4E920000BE1E36 /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73539042A4E920000BE1E36 /* NoteDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +74,10 @@
 		D735080E2A4CD28B009680DD /* VoteTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteTwoView.swift; sourceTree = "<group>"; };
 		D73508102A4CD32F009680DD /* VoteThreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteThreeView.swift; sourceTree = "<group>"; };
 		D73508122A4CD383009680DD /* VoteFourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteFourView.swift; sourceTree = "<group>"; };
+		D73538FC2A4E8B4600BE1E36 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		D73538FE2A4E8C5100BE1E36 /* NewJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewJournalView.swift; sourceTree = "<group>"; };
+		D73539022A4E901600BE1E36 /* ImageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataModel.swift; sourceTree = "<group>"; };
+		D73539042A4E920000BE1E36 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +142,9 @@
 				3BA298E52A4CD09100ADC09F /* PetitionThreeView.swift */,
 				3BA298E32A4CCF8B00ADC09F /* PetitionTwoView.swift */,
 				3BA298DF2A4CCE0C00ADC09F /* PetitionOneView.swift */,
-				D73507AB2A4B8D49009680DD /* JournalView.swift */,
+				D73539062A4E920400BE1E36 /* JournalViews */,
+				D73539002A4E8FED00BE1E36 /* ImageData */,
+				D73538FB2A4E8B2200BE1E36 /* ImagePickerFeature */,
 				D735077F2A4B888F009680DD /* Assets.xcassets */,
 				D73507812A4B888F009680DD /* Preview Content */,
 			);
@@ -164,6 +174,40 @@
 				D73507982A4B8890009680DD /* YOUthElectUITestsLaunchTests.swift */,
 			);
 			path = YOUthElectUITests;
+			sourceTree = "<group>";
+		};
+		D73538FB2A4E8B2200BE1E36 /* ImagePickerFeature */ = {
+			isa = PBXGroup;
+			children = (
+				D73538FC2A4E8B4600BE1E36 /* ImagePicker.swift */,
+			);
+			path = ImagePickerFeature;
+			sourceTree = "<group>";
+		};
+		D73539002A4E8FED00BE1E36 /* ImageData */ = {
+			isa = PBXGroup;
+			children = (
+				D73539012A4E8FF600BE1E36 /* Model */,
+			);
+			path = ImageData;
+			sourceTree = "<group>";
+		};
+		D73539012A4E8FF600BE1E36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D73539022A4E901600BE1E36 /* ImageDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D73539062A4E920400BE1E36 /* JournalViews */ = {
+			isa = PBXGroup;
+			children = (
+				D73507AB2A4B8D49009680DD /* JournalView.swift */,
+				D73538FE2A4E8C5100BE1E36 /* NewJournalView.swift */,
+				D73539042A4E920000BE1E36 /* NoteDetailView.swift */,
+			);
+			path = JournalViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,9 +350,13 @@
 				D73507AE2A4B8EE1009680DD /* CandidatesView.swift in Sources */,
 				D735080F2A4CD28B009680DD /* VoteTwoView.swift in Sources */,
 				D73508112A4CD32F009680DD /* VoteThreeView.swift in Sources */,
+				D73539052A4E920000BE1E36 /* NoteDetailView.swift in Sources */,
 				D73507A82A4B8D1E009680DD /* VotingView.swift in Sources */,
+				D73538FF2A4E8C5100BE1E36 /* NewJournalView.swift in Sources */,
 				D73507A62A4B8D0D009680DD /* TabBarView.swift in Sources */,
+				D73539032A4E901600BE1E36 /* ImageDataModel.swift in Sources */,
 				D735077C2A4B888B009680DD /* YOUthElectApp.swift in Sources */,
+				D73538FD2A4E8B4600BE1E36 /* ImagePicker.swift in Sources */,
 				3B341E652A4DFB2B0076BB5D /* PetitionFourView.swift in Sources */,
 				D735080D2A4CCFC5009680DD /* VoteOneView.swift in Sources */,
 			);
