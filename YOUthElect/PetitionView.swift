@@ -30,7 +30,7 @@ struct PetitionView: View {
                     
                     
                     NavigationLink(destination: PetitionOneView()) {
-                        Text("Petition for Safer Crosswalks in Plymouth City")
+                        Text("Stop the Mining That Will Occur in the Bad River Watershed")
                     }
                     
                     .padding()
@@ -49,7 +49,7 @@ struct PetitionView: View {
                     
                     
                     NavigationLink(destination: PetitionTwoView()) {
-                        Text("Petition to stop Development in Pink Park")
+                        Text("Petition to Ban Harmful Pesticides and Promote Organic Farming Practices")
                         
                     }
                     .padding()
@@ -82,7 +82,7 @@ struct PetitionView: View {
                     
                     
                     NavigationLink(destination: PetitionFourView()) {
-                        Text("Petition to Increase Funding for Mental Health Services in Schools")
+                        Text("Petition to Preserve Midwest Forests and Combat Deforestation")
                         
                     }
                     .padding()
