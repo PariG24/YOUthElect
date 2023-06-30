@@ -19,14 +19,13 @@ struct PetitionView: View {
                 .foregroundColor(Color(red: 0.282, green: 0.524, blue: 0.948))
                 .padding()
             
-            ScrollView{
+    
                 
                 Text("Here you can find petitions that effect your community!")
                     .multilineTextAlignment(.center)
                 
                 
                 NavigationStack {
-                    
                     
                     
                     NavigationLink(destination: PetitionOneView()) {
@@ -103,7 +102,6 @@ struct PetitionView: View {
                 .searchable(text: $searchText)
                 
             }
-        }
     }
     
     struct PetitionView_Previews: PreviewProvider {
@@ -112,3 +110,4 @@ struct PetitionView: View {
         }
     }
 }
+
