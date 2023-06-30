@@ -38,7 +38,7 @@ struct CandidatesView: View {
                                 
                             }
                             
-                            Text("About: We, the supporters of healthy ecosystems and human well-being, call for the banning of harmful pesticides in Midwest agriculture. By promoting organic farming practices, reducing pesticide usage, and supporting farmers' transition to sustainable and regenerative agriculture, we can protect biodiversity, safeguard public health, and foster a more environmentally-friendly and sustainable food system. ")
+                            Text("Joe Biden, the 46th President of the United States, holds a range of political views that he has advocated throughout his long career in public service. Biden identifies as a member of the Democratic Party and generally aligns himself with its progressive ideals. He emphasizes the importance of expanding access to affordable healthcare, strengthening the middle class, and promoting economic equality. Biden has expressed support for increasing taxes on the wealthiest individuals and corporations while implementing policies aimed at creating job opportunities and investing in clean energy. He has also demonstrated a commitment to addressing climate change, rejoining the Paris Agreement and advocating for green infrastructure initiatives. Additionally, Biden has emphasized the need for comprehensive immigration reform, protecting voting rights, and advocating for social justice.")
                         
                         }
                         .padding()
