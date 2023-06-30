@@ -18,94 +18,97 @@ struct PetitionView: View {
                 .font(.largeTitle)
                 .foregroundColor(Color(red: 0.282, green: 0.524, blue: 0.948))
                 .padding()
-         
-            Text("Here you can find petitions that effect your community!")
-                .multilineTextAlignment(.center)
-
             
-            NavigationStack {
+            ScrollView{
                 
-            
-                
-                NavigationLink(destination: PetitionOneView()) {
-                    Text("Petition for Safer Crosswalks in Plymouth City")
-                }
-               
-                .padding()
-                                    .foregroundColor(.black)
-                                            .background(
-                                                RoundedRectangle(
-
-                                                    cornerRadius: 20,
-                                                    style: .continuous
-                                                )
-                                                .stroke(Color(red: 0.282, green: 0.524, blue: 0.948), lineWidth: 2)
-
-                                            )
+                Text("Here you can find petitions that effect your community!")
+                    .multilineTextAlignment(.center)
                 
                 
-                
-                
-                NavigationLink(destination: PetitionTwoView()) {
-                    Text("Petition to stop Development in Pink Park")
+                NavigationStack {
+                    
+                    
+                    
+                    NavigationLink(destination: PetitionOneView()) {
+                        Text("Petition for Safer Crosswalks in Plymouth City")
+                    }
+                    
+                    .padding()
+                    .foregroundColor(.black)
+                    .background(
+                        RoundedRectangle(
+                            
+                            cornerRadius: 20,
+                            style: .continuous
+                        )
+                        .stroke(Color(red: 0.282, green: 0.524, blue: 0.948), lineWidth: 2)
+                        
+                    )
+                    
+                    
+                    
+                    
+                    NavigationLink(destination: PetitionTwoView()) {
+                        Text("Petition to stop Development in Pink Park")
+                        
+                    }
+                    .padding()
+                    .foregroundColor(.black)
+                    .background(
+                        RoundedRectangle(
+                            
+                            cornerRadius: 20,
+                            style: .continuous
+                        )
+                        .stroke(Color(red: 0.282, green: 0.524, blue: 0.948), lineWidth: 2)
+                        
+                    )
+                    
+                    NavigationLink(destination: PetitionThreeView()) {
+                        Text("Petition for Stricter Regulations on Plastic Packaging")
+                        
+                    }
+                    .padding()
+                    .foregroundColor(.black)
+                    .background(
+                        RoundedRectangle(
+                            
+                            cornerRadius: 20,
+                            style: .continuous
+                        )
+                        .stroke(Color(red: 0.282, green: 0.524, blue: 0.948), lineWidth: 2)
+                        
+                    )
+                    
+                    
+                    NavigationLink(destination: PetitionFourView()) {
+                        Text("Petition to Increase Funding for Mental Health Services in Schools")
+                        
+                    }
+                    .padding()
+                    .foregroundColor(.black)
+                    .background(
+                        RoundedRectangle(
+                            
+                            cornerRadius: 20,
+                            style: .continuous
+                        )
+                        .stroke(Color(red: 0.282, green: 0.524, blue: 0.948), lineWidth: 2)
+                        
+                    )
                     
                 }
-                .padding()
-                                    .foregroundColor(.black)
-                                            .background(
-                                                RoundedRectangle(
-
-                                                    cornerRadius: 20,
-                                                    style: .continuous
-                                                )
-                                                .stroke(Color(red: 0.282, green: 0.524, blue: 0.948), lineWidth: 2)
-
-                                            )
                 
-                NavigationLink(destination: PetitionThreeView()) {
-                    Text("Petition for Stricter Regulations on Plastic Packaging")
-                    
-                }
-                .padding()
-                                    .foregroundColor(.black)
-                                            .background(
-                                                RoundedRectangle(
-
-                                                    cornerRadius: 20,
-                                                    style: .continuous
-                                                )
-                                                .stroke(Color(red: 0.282, green: 0.524, blue: 0.948), lineWidth: 2)
-
-                                            )
-               
                 
-                NavigationLink(destination: PetitionFourView()) {
-                    Text("Petition to Increase Funding for Mental Health Services in Schools")
-                    
-                }
-                .padding()
-                                    .foregroundColor(.black)
-                                            .background(
-                                                RoundedRectangle(
-
-                                                    cornerRadius: 20,
-                                                    style: .continuous
-                                                )
-                                                .stroke(Color(red: 0.282, green: 0.524, blue: 0.948), lineWidth: 2)
-
-                                            )
-            
+                .searchable(text: $searchText)
+                
             }
-            
-      
-            .searchable(text: $searchText)
-        
         }
     }
-}
-
-struct PetitionView_Previews: PreviewProvider {
-    static var previews: some View {
-        PetitionView()
+    
+    struct PetitionView_Previews: PreviewProvider {
+        static var previews: some View {
+            PetitionView()
+        }
     }
 }

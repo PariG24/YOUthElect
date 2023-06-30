@@ -21,7 +21,7 @@ struct PetitionThreeView: View {
                         Text("Petition for Stricter Regulations on Plastic Packaging in Minnesota")
                             .font(.title2)
                             .fontWeight(.bold)
-                            .multilineTextAlignment(.trailing)
+                            .multilineTextAlignment(.leading)
                         
                     }
                     
