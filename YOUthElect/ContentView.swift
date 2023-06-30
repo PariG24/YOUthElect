@@ -32,6 +32,7 @@ struct ContentView: View {
                 }
                 Text("YOUthElect is the ultimate app empowering young people to become politically engaged and exercise their right to vote. With a wealth of resources and features, YOUthElect equips users with the tools they need to navigate recent elections, petitions, and protests. Stay informed about candidates, their platforms, and voting instructions, ensuring that every voice is heard in the democratic process.")
                     .font(.caption)
+                    .padding()
                 Text("What area would you like to focus on today?")
                     .fontWeight(.bold)
                 Menu{
