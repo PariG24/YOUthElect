@@ -13,6 +13,7 @@ struct VotingView: View {
         VStack{
             Text("Your Vote")
                 .font(.largeTitle)
+                .fontWeight(.bold)
                 .foregroundColor(Color(red: 0.996078431372549, green: 0.37254901960784315, blue: 0.3333333333333333))
             
             Text("Down below are upcoming movements you can vote on!")
